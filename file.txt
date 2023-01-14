@@ -1,0 +1,4 @@
+# Example function to run [paste into .minecraft folder or change path]
+execute run setblock ~ ~-1 ~ command_block destroy
+execute run setblock ~ ~ ~ dirt destroy
+execute run setblock ~ ~5 ~ tnt replace
